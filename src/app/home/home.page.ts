@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class HomePage {
-
+Montexte="Bonjour";
   constructor() {}
+  MonClick(){
+    alert("Vous avez cliqué");
+  }
 
 }
